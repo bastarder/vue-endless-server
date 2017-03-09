@@ -3,5 +3,6 @@ from django.conf.urls import url
 from . import views
 
 urlpatterns = [
-    url(r'^savelist/$', views.save_list),
+    url(r'^signup$', views.signup),
+    url(r'^signin$', views.signin)
 ]
